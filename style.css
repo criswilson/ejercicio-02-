@@ -11,6 +11,24 @@ body {
 .leftDiv {
   background-color: rgb(80, 80, 80);
   color: #fff;
-  width: 25%;
+  width: 23%;
   height: 1000px;
+  text-align: right;
+}
+
+#tituloPrincipal {
+  font-size: 60px;
+  margin-right: 10px;
+}
+
+#copete {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.leftButton {
+  background-color: rgb(80, 80, 80);
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
 }
