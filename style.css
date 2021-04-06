@@ -9,26 +9,117 @@ body {
 }
 
 .leftDiv {
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(86, 102, 133);
   color: #fff;
-  width: 23%;
+  width: 40%;
   height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: right;
 }
 
 #tituloPrincipal {
   font-size: 60px;
-  margin-right: 10px;
+  margin-right: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #copete {
   font-size: 40px;
-  margin-right: 10px;
+  margin-right: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .leftButton {
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(86, 102, 133);
   color: white;
   cursor: pointer;
-  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightSection {
+  margin-left: 30px;
+}
+
+#articleOne {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#articleTwo {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.volanta {
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titleRight {
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.autor {
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+#buttonCSS {
+  background-color: rgb(19, 165, 19);
+  color: #fff;
+  border: 0;
+  width: 60px;
+  height: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+#buttonPure {
+  background-color: rgb(38, 80, 219);
+  color: #fff;
+  border: 0;
+  width: 60px;
+  height: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+#buttonJavaScript {
+  background-color: rgb(219, 38, 83);
+  color: #fff;
+  border: 0;
+  width: 90px;
+  height: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.textoPrincipal {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
