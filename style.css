@@ -12,7 +12,7 @@ body {
   background-color: rgb(86, 102, 133);
   color: #fff;
   width: 40%;
-  height: 1000px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,18 +35,30 @@ body {
   background-color: rgb(86, 102, 133);
   color: white;
   cursor: pointer;
-  display: flex;
-  flex-direction: row;
   margin-right: 30px;
+  border-color: #fff;
+  border-style: solid;
+  width: 130px;
+  height: 45px;
+  margin-top: 15px;
+  font-size: 15px;
 }
 
-#buttons {
+.buttons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .rightSection {
   margin-left: 30px;
+}
+
+.image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  float: ;
 }
 
 #articleOne {
@@ -69,7 +81,7 @@ body {
 }
 
 .titleRight {
-  font-size: 60px;
+  font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -82,8 +94,8 @@ body {
 #buttonCSS {
   background-color: rgb(19, 165, 19);
   color: #fff;
-  border: 0;
   width: 60px;
+  border: 0;
   height: 23px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
